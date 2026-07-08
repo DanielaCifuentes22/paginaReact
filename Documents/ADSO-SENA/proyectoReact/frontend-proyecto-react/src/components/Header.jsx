@@ -1,3 +1,5 @@
+import IdiomaMenu from "./IdiomaMenu";
+
 function Header(){
     return(
         <header className = "header">
@@ -5,6 +7,7 @@ function Header(){
                 <img src=".img/logogaleria.png" alt="logotipo" />
                 <img src="img/ubicacion.png" alt="ubicación" />
             </div>
+             <IdiomaMenu />
             <nav>
                 <a href="#inicio">INICIO</a>
                 <a href="#obras">OBRAS</a>
