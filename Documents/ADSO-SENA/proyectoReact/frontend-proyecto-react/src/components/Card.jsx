@@ -1,4 +1,4 @@
-function Card({titulo, descripcion}){
+function Card({titulo, descripcion, botonTexto}){
     return(
      <article className = "card">
         <h3>{titulo}</h3>
