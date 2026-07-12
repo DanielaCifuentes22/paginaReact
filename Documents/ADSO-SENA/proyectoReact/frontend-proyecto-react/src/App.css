@@ -4,5 +4,26 @@
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: white;
-  
+  color: black;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5EBDF;
+  color: #6E1E23;
+  padding: 20px 50px;
+}
+.logo{
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav{
+  display: flex;
+  gap: 20px;
+}
+.nav a{
+  color: #6E1E23;
+  text-decoration: none;
+  font-weight: bold;
 }
