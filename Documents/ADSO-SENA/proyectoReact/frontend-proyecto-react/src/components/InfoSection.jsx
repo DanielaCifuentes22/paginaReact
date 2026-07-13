@@ -12,10 +12,13 @@ function InfoSection(){
                 />
                 <Card
                 titulo = "Información general"
-                descripcion = {`Dirección de la galería: Carrera 30 # 50-69 Bello horizonte Pereira
-                Teléfono: 6063500000
-                Correo: galeriacuecha@gmail.com
-                Horarios de atención: Lunes a viernes 8:00 am - 12:00 m y de 2:00 pm - 4:00 pm`}
+                descripcion = {
+                <>
+                    Dirección de la galería: Carrera 30 # 50-69 Bello Horizonte, Pereira.<br />
+                    Teléfono: 606 350 0000.<br />
+                    Correo: galeriacuecha@gmail.com.<br />
+                    Horarios de atención: Lunes a viernes de 8:00 a.m. a 12:00 m. y de 2:00 p.m. a 4:00 p.m.
+                </> }
                 />
                 <Card 
                 titulo = "Servicios"

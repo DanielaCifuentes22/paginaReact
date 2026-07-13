@@ -1,6 +1,6 @@
 function ContactForm(){
     return(
-        <section className = "section" id = "contacto">
+        <section className = "section1" id = "contacto">
             <h2>Formulario de contacto</h2>
             <form className = "form" action="">
                 <label htmlFor="">
