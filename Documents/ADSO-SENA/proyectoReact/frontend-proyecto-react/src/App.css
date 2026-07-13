@@ -101,3 +101,9 @@ body{
 .boton:hover{
   background-color: #411214;
 }
+.footer{
+  background-color: #F5EBDF;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
