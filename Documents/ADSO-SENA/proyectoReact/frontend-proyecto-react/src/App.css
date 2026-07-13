@@ -81,3 +81,23 @@ body{
 .card h3{
   margin-top: 0;
 }
+.section1{
+  padding: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.boton{
+  background-color: #6e383c;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.boton:hover{
+  background-color: #411214;
+}

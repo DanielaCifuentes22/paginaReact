@@ -26,8 +26,8 @@ function ContactForm(){
                     Mensaje:
                     <input type="text" placeholder="Escribe su mensaje"/>
                 </label>
-                <button type="submit">Enviar</button>
             </form>
+            <button className = "boton" type="submit">Enviar</button>
         </section>
     );
 }

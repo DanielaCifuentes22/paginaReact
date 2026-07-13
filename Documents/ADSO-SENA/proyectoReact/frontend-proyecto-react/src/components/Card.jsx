@@ -5,7 +5,7 @@ function Card({titulo, descripcion, botonTexto}){
         <p>{descripcion}</p>
 
          {botonTexto && (
-                <button className="btn-card">
+                <button className="boton">
                     {botonTexto}
                 </button>
             )}
