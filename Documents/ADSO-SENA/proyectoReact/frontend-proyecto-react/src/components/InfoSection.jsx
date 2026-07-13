@@ -1,8 +1,10 @@
+//Importación del componente para presentación en tarjetas reutilizables.
 import Card from './Card';
 
+//Componente para información importante mediante tarjetas.
 function InfoSection(){
     return(
-        <section className = "section" id = "informacion importante">
+        <section className = "section" id = "informacionImportante">
             <h2>Información de interés</h2>
             <div className = "cards-container">
                 <Card

@@ -1,11 +1,14 @@
+//Importación de imagenes usados como iconos para redes sociales.
 import facebook from "../img/facebook.png";
 import instagram from "../img/instagram.png";
 import whatsapp from "../img/whatsapp.png";
 
+//Componente para mostrar pié de página con información de redes sociales.
 function Footer(){
     return(
         <footer className="footer">
             <p>© 2026 Galería Cuecha - Todos los derechos reservados.</p>
+            {/*Contenedor con los enlaces de las redes sociales.*/}
             <div className="redes-sociales">
 
                 <a

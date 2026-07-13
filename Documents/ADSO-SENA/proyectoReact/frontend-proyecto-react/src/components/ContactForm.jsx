@@ -1,3 +1,4 @@
+//Componente para envío de solicitudes como formulario.
 function ContactForm(){
     return(
         <section className = "section1" id = "contacto">
@@ -13,6 +14,7 @@ function ContactForm(){
                 </label>
                 <label>
                     Tipo de solicitud:
+                    {/*menú desplegable para selección de tipo de solicitud*/}
                     <select>
                         <option value="">Seleccione una opción</option>
                         <option value="pqr">PQR</option>
