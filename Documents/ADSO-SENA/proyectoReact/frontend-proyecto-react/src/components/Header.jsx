@@ -7,9 +7,11 @@ function Header(){
         <header className = "header">
             <div className = "logo">
                 <img src={logogaleria} alt="logo de la galeria"/>
-                <img src={ubicacion} alt="ubicación"/>
             </div>
-             <IdiomaMenu />
+            <div className = "menuIzquierdo">
+                <img src={ubicacion} alt="ubicación"/>
+                <IdiomaMenu />
+            </div>
             <nav className = "nav">
                 <a href="#inicio">INICIO</a>
                 <a href="#obras">OBRAS</a>
